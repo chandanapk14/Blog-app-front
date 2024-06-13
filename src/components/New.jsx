@@ -2,7 +2,7 @@ import axios from 'axios'
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-const SignUp = () => {
+const New = () => {
     const [data, changeData] = useState(
         {
             "name":"",
@@ -61,5 +61,4 @@ const SignUp = () => {
   )
 }
 
-
-export default SignUp
+export default New

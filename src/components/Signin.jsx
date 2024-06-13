@@ -46,7 +46,7 @@ const Signin = () => {
                             <center><button className="btn btn-primary" onClick={readValue}>Login</button></center>
                             </div>
                             <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                                <center><Link to='/signup'>New User</Link></center>
+                                <center><Link to='/new'>New User</Link></center>
                             </div>
                         </div>
                     </div>
